@@ -1,0 +1,8 @@
+{
+  "name": "genomics-team",
+  "version": "1.0.0",
+  "description": "多 Agent 团队工作流: Review → Plan → Dev → Test/Deploy，用于基因组预测 pipeline 开发",
+  "author": {
+    "name": "lzy1217-colud"
+  }
+}

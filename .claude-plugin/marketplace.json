@@ -1,0 +1,37 @@
+{
+  "name": "genomics-plugins",
+  "description": "Claude Code plugins for genomic analysis: HIBLUP/rMVP analysis toolkit + multi-agent genomics team workflow",
+  "owner": {
+    "name": "lzy1217-colud"
+  },
+  "plugins": [
+    {
+      "name": "genomic-analysis-toolkit",
+      "description": "HIBLUP 基因组预测 / rMVP GWAS 关联分析 — 格式防混淆专属助手",
+      "author": {
+        "name": "lzy1217-colud"
+      },
+      "category": "bioinformatics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lzy1217-colud/claude-genomics-plugins.git",
+        "path": "genomic-analysis-toolkit",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "genomics-team",
+      "description": "多 Agent 团队工作流: Review → Plan → Dev → Test/Deploy，用于基因组预测 pipeline 开发",
+      "author": {
+        "name": "lzy1217-colud"
+      },
+      "category": "bioinformatics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lzy1217-colud/claude-genomics-plugins.git",
+        "path": "genomics-team",
+        "ref": "main"
+      }
+    }
+  ]
+}

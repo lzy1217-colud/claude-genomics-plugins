@@ -1,0 +1,8 @@
+{
+  "name": "genomic-analysis-toolkit",
+  "version": "1.0.0",
+  "description": "HIBLUP 基因组预测 / rMVP GWAS 关联分析 — 格式防混淆专属助手",
+  "author": {
+    "name": "lzy1217-colud"
+  }
+}
